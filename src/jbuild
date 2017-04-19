@@ -27,7 +27,7 @@
    (caml
     shadow_stdlib))
   (install_c_headers (internalhash))
-  (c_flags (:standard -D_LARGEFILE64_SOURCE -mpopcnt))
+  (c_flags (:standard -D_LARGEFILE64_SOURCE))
   (c_names
    ;; If you add c stubs in here, ask yourself this question: would it make sense/can it
    ;; be implemented under windows and in javascript? If not, perhaps this piece of code
